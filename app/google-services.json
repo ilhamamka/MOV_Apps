@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "774546611928",
+    "firebase_url": "https://movilhamapps.firebaseio.com",
+    "project_id": "movilhamapps",
+    "storage_bucket": "movilhamapps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774546611928:android:739839b3458067272d41ad",
+        "android_client_info": {
+          "package_name": "com.ilham.movapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "774546611928-fmpptmlvuosbsfn7j4cql5aqvjdko54m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ilham.movapps",
+            "certificate_hash": "0f7f58785b33351a5d6033a0c3aed561fccc1210"
+          }
+        },
+        {
+          "client_id": "774546611928-pucnbf88fe3sihf5fojru0m5h7ahorcn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMaK9ZCaKClO0XTPfGVFV5r_TQDr0eSsg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "774546611928-pucnbf88fe3sihf5fojru0m5h7ahorcn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
