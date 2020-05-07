@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorBlue"
     tools:context=".home.HomeActivity">
 
     <FrameLayout
@@ -18,37 +17,37 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
-        android:padding="10dp"
+        android:id="@+id/linearLayout"
+        android:padding="15dp"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:background="@color/colorWhite"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
         <ImageView
             android:id="@+id/iv_menu1"
-            android:layout_width="50dp"
+            android:src="@drawable/ic_home_active"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            app:srcCompat="@drawable/ic_home_active" />
-
+            android:contentDescription="@string/todo" />
         <ImageView
             android:id="@+id/iv_menu2"
-            android:layout_width="50dp"
+            android:src="@drawable/ic_tiket"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_marginStart="100dp"
             android:layout_weight="1"
-            app:srcCompat="@drawable/ic_tiket" />
-
+            android:contentDescription="@string/todo" />
         <ImageView
             android:id="@+id/iv_menu3"
-            android:layout_width="50dp"
+            android:src="@drawable/ic_profile"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_marginStart="100dp"
             android:layout_weight="1"
-            app:srcCompat="@drawable/ic_profile" />
+            android:contentDescription="@string/todo" />
 
     </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
