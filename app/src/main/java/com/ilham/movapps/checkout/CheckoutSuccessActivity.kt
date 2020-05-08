@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.ilham.movapps.R
 import com.ilham.movapps.home.HomeActivity
+import com.ilham.movapps.home.TiketActivity
 import kotlinx.android.synthetic.main.activity_checkout_success.*
 
 class CheckoutSuccessActivity : AppCompatActivity() {
@@ -21,6 +22,5 @@ class CheckoutSuccessActivity : AppCompatActivity() {
                 HomeActivity::class.java)
             startActivity(intent)
         }
-
     }
 }

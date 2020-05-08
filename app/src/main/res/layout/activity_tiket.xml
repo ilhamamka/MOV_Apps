@@ -46,7 +46,7 @@
             android:id="@+id/textView22"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
+            android:layout_marginStart="24dp"
             android:layout_marginTop="8dp"
             android:drawableLeft="@drawable/ic_calendar_today_24px"
             android:drawablePadding="10dp"
@@ -61,7 +61,7 @@
             android:id="@+id/textView23"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
+            android:layout_marginStart="24dp"
             android:layout_marginTop="8dp"
             android:drawableLeft="@drawable/ic_local_movies_24px"
             android:drawablePadding="10dp"
@@ -150,6 +150,7 @@
             android:layout_marginTop="8dp"
             android:fontFamily="@font/montserrat"
             android:text="Title"
+            android:textColor="@color/colorBlack"
             android:textSize="18sp"
             app:layout_constraintStart_toEndOf="@+id/iv_poster"
             app:layout_constraintTop_toTopOf="@+id/iv_poster" />
@@ -161,6 +162,7 @@
             android:layout_marginStart="16dp"
             android:fontFamily="@font/montserrat"
             android:text="TextView"
+            android:textColor="@color/colorBlack"
             android:textSize="12sp"
             app:layout_constraintStart_toEndOf="@+id/iv_poster"
             app:layout_constraintTop_toBottomOf="@+id/tv_title" />
@@ -176,6 +178,7 @@
             android:fontFamily="@font/montserrat"
             android:gravity="center"
             android:text="TextView"
+            android:textColor="@color/colorBlack"
             android:textSize="12sp"
             app:layout_constraintStart_toEndOf="@+id/iv_poster"
             app:layout_constraintTop_toBottomOf="@+id/tv_genre" />
